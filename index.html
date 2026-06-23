@@ -6,11 +6,11 @@
 <title>Calculadora de Precificação — Lari Iraha</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{
   --font-sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
-  --font-display:'Baloo 2','Inter',sans-serif;
+  --font-display:'Sora','Inter',sans-serif;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{background:#08080b}
@@ -39,7 +39,7 @@ body{
 .badge .dot{width:7px;height:7px;border-radius:50%;background:#FF9900;box-shadow:0 0 10px 1px #FF9900}
 .title{
   font-family:var(--font-display);
-  font-size:clamp(36px,6vw,58px);font-weight:800;line-height:1.03;letter-spacing:-.015em;
+  font-size:clamp(34px,5.4vw,54px);font-weight:800;line-height:1.05;letter-spacing:-.025em;
   background:linear-gradient(180deg,#ffffff 0%, #ffe9c7 55%, #ffb060 100%);
   -webkit-background-clip:text;background-clip:text;color:transparent;
   filter:drop-shadow(0 4px 30px rgba(255,153,0,.25));
@@ -80,7 +80,7 @@ body{
 .card-inner{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;flex:1;justify-content:center;gap:1.1rem;width:100%}
 .logo-box{height:96px;display:flex;align-items:center;justify-content:center}
 .logo-box img{max-height:96px;max-width:78%;width:auto;height:auto;object-fit:contain;filter:drop-shadow(0 8px 18px rgba(0,0,0,.45))}
-.brand{font-family:var(--font-display);font-weight:700;font-size:19px;color:#fff;letter-spacing:.01em}
+.desc{font-size:11.5px;line-height:1.55;color:#aab0c0;text-align:center;max-width:225px;margin:.2rem auto 0}
 
 .cta{
   position:relative;z-index:1;margin-top:1.2rem;
@@ -133,7 +133,7 @@ body{
     <a class="card ml" href="https://calculadorameli.lariiraha.com.br/">
       <div class="card-inner">
         <div class="logo-box"><img src="ml-logo.png" alt="Mercado Livre"></div>
-        <div class="brand">Mercado Livre</div>
+        <p class="desc">Calcule o preço ideal dos seus produtos no Mercado Livre e garanta a sua margem de lucro.</p>
       </div>
       <span class="cta">Abrir calculadora <span class="arr">→</span></span>
     </a>
@@ -141,7 +141,7 @@ body{
     <a class="card amz" href="https://calculadoraamz.lariiraha.com.br/">
       <div class="card-inner">
         <div class="logo-box"><img src="amazon-logo.png" alt="Amazon"></div>
-        <div class="brand">Amazon</div>
+        <p class="desc">Calcule o preço ideal considerando FBA, comissões e a sua margem de lucro.</p>
       </div>
       <span class="cta">Abrir calculadora <span class="arr">→</span></span>
     </a>
@@ -149,7 +149,7 @@ body{
     <a class="card shp" href="https://calculadorashopee.lariiraha.com.br/">
       <div class="card-inner">
         <div class="logo-box"><img src="shopee-logo.png" alt="Shopee"></div>
-        <div class="brand">Shopee</div>
+        <p class="desc">Calcule o preço ideal dos seus produtos na Shopee Brasil e garanta a sua margem de lucro.</p>
       </div>
       <span class="cta">Abrir calculadora <span class="arr">→</span></span>
     </a>
